@@ -1,0 +1,5 @@
+#!/bin/bash
+#How to open image sequence: fcheck -n 0001 0024 1 playblast.@@@@.gif
+#Where @@@@ is the numbering system
+
+/usr/autodesk/maya/bin/fcheck $*

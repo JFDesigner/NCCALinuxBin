@@ -1,0 +1,8 @@
+#!/bin/bash
+echo $*
+if [ -z "$2" ]
+    then
+        find `pwd` -name $1
+    else
+        find `pwd` -maxdepth $1 -name $2
+fi
